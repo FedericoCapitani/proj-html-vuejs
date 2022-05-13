@@ -15,8 +15,11 @@
             margin: 0 auto;
             justify-content: space-between;
             .ads_item{
-                color: $median-light-grey;
+                color: $median-dark-grey;
                 padding: 1rem;
+                span{
+                    margin-left: 10px;
+                }
             }
         }
     }
@@ -24,17 +27,25 @@
         display: flex;
         max-width: 1200px;
         margin: 0 auto;
-        padding: 1rem 0;
+        padding: 2rem 0;
         align-items: center;
-        column-gap: 1rem;
+        column-gap: 4rem;
         .links{
             flex-grow: 2;
             display: flex;
+            flex-direction: row;
             justify-content: space-between;
             a{
                 text-decoration: none;
                 color: $cube-white;
             }
+        }
+        .btn_nav{
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            border: none;
+            color: $cube-white;
+            background-color: $median-green;
         }
     }
 }
@@ -56,6 +67,46 @@
         p{
             padding-top: 1rem;
             font-size: 2rem;
+        }
+    }
+}
+.sign-up{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    .sign-up_info{
+        margin-top: 4rem;
+        width: 50%;
+        h3{
+            color: $cube-grey;
+            font-size: 3rem;
+        }
+        p{
+            margin-top: 2rem;
+            color: $median-dark-grey;
+            font-size: 1.5rem;
+        }
+        .small_text{
+            font-size: 16px;
+        }
+    }
+    .sign-up_form{
+        border-radius: 2rem;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px;
+        .form{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 1rem;
+            input{
+                padding: 1rem;
+                width: 100%;
+                border-radius: 1rem;
+            }
         }
     }
 }

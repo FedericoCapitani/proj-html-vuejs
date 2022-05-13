@@ -1,28 +1,7 @@
 <template>
   <div id="app">
     
-    <header>
-      <div class="header_container">
-        <div class="ads_container">
-          <div class="ads">
-          <div class="ads_item">
-            we have a 95% Successfull Pass Rate!
-          </div>
-          <div class="ads_item">
-            Give us a call to book your tuition! 1-800-555-555
-          </div>
-        </div>
-        </div>
-        <div class="navbar">
-          <div class="logo">
-            <img src="@/assets/img/avada-drivers-logo-2x-300x58.png" alt="company logo">
-          </div>
-          <div class="links" v-for="link in nav_links" :key="link.id">
-            <a href="#"> {{link.text}} </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <SiteHeader/>
 
     <main>
 
@@ -35,48 +14,38 @@
         </div>
       </div>
 
+      <div class="sign-up">
+        <div class="sign-up_info">
+          <h3>Get Behind The Wheel</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae labore, possimus doloremque nam nemo similique eum maiores quos beatae suscipit?</p>
+          <p class="small_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae officiis rerum natus eveniet iure obcaecati optio fugiat laborum. Neque obcaecati labore porro recusandae, dolor repudiandae sapiente doloremque ut est?</p>
+        </div>
+        <div class="sign-up_form">
+          <h3>First Lesson Free!</h3>
+          <p>When you make a block booking with us your first lesson is included free</p>
+          <form action="" class="form">
+            <input type="text" placeholder="Your Name*">
+            <input type="text" placeholder="Email*">
+            <input type="text" placeholder="Telephone">
+            <input type="text" placeholder="Location">
+          </form>
+        </div>
+      </div>
+
     </main>
 
   </div>
 </template>
 
 <script>
+import SiteHeader from "@/components/HeaderComponent.vue"
 
 export default {
   name: 'App',
   components: {
-    
+    SiteHeader
   },
-  data() {
-    return {
-      nav_links: [
-        {
-          id: 1,
-          text: "HOME"
-        },
-        {
-          id: 2,
-          text: "ABOUT"
-        },
-        {
-          id: 3,
-          text: "PRICES"
-        },
-        {
-          id: 4,
-          text: "COURSES"
-        },
-        {
-          id: 5,
-          text: "LOCATIONS"
-        },
-        {
-          id: 6,
-          text: "BLOG"
-        },
-      ]
-    }
-  }
+  
 }
 </script>
 
