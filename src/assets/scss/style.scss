@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container{
+    position: sticky;
+    .ads_container{
+        background-color: $cube-grey;
+        .ads{
+            display: flex;
+            max-width: 1440px;
+            margin: 0 auto;
+            justify-content: space-between;
+            .ads_item{
+                color: $median-light-grey;
+                padding: 1rem;
+            }
+        }
+    }
+}
