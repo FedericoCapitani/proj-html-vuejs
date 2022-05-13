@@ -17,13 +17,8 @@
           <div class="logo">
             <img src="@/assets/img/avada-drivers-logo-2x-300x58.png" alt="company logo">
           </div>
-          <div class="links">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">PRICES</a>
-            <a href="#">COURSES</a>
-            <a href="#">LOCATIONS</a>
-            <a href="#">BLOG</a>
+          <div class="links" v-for="link in nav_links" :key="link.id">
+            <a href="#"> {{link.text}} </a>
           </div>
         </div>
       </div>
@@ -51,6 +46,36 @@ export default {
   name: 'App',
   components: {
     
+  },
+  data() {
+    return {
+      nav_links: [
+        {
+          id: 1,
+          text: "HOME"
+        },
+        {
+          id: 2,
+          text: "ABOUT"
+        },
+        {
+          id: 3,
+          text: "PRICES"
+        },
+        {
+          id: 4,
+          text: "COURSES"
+        },
+        {
+          id: 5,
+          text: "LOCATIONS"
+        },
+        {
+          id: 6,
+          text: "BLOG"
+        },
+      ]
+    }
   }
 }
 </script>
