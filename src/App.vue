@@ -14,10 +14,33 @@
         </div>
         </div>
         <div class="navbar">
-          
+          <div class="logo">
+            <img src="@/assets/img/avada-drivers-logo-2x-300x58.png" alt="company logo">
+          </div>
+          <div class="links">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PRICES</a>
+            <a href="#">COURSES</a>
+            <a href="#">LOCATIONS</a>
+            <a href="#">BLOG</a>
+          </div>
         </div>
       </div>
     </header>
+
+    <main>
+
+      <div class="jumbotron">
+        <div class="jumbo_text">
+          <h2>
+            Drive with Avada
+          </h2>
+          <p> We offer the finest tuition money can buy</p>
+        </div>
+      </div>
+
+    </main>
 
   </div>
 </template>
