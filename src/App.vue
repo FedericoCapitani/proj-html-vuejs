@@ -23,12 +23,13 @@
         <div class="sign-up_form d_flex">
           <h3>First Lesson Free!</h3>
           <p>When you make a block booking with us your first lesson is included free</p>
-          <form action="" class="form d_flex">
+          <form action="" class="form d_flex" id="form1">
             <input type="text" placeholder="Your Name*">
             <input type="text" placeholder="Email*">
             <input type="text" placeholder="Telephone">
             <input type="text" placeholder="Location">
           </form>
+          <button class="sign_up_btn" form="form1">REQUEST A CALLBACK</button>
         </div>
       </div>
 
@@ -44,6 +45,10 @@
             </p>
           </div>
         </div>
+      </div>
+
+      <div class="course_plans">
+
       </div>
 
     </main>

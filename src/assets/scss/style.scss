@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .d_flex{
@@ -74,9 +75,12 @@
 .sign-up{
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
     .sign-up_info{
         margin-top: 4rem;
         width: 50%;
+        padding-bottom: 6rem;
+        padding-right: 2rem;
         h3{
             color: $cube-grey;
             font-size: 3rem;
@@ -91,11 +95,25 @@
         }
     }
     .sign-up_form{
+        background-color: $cube-white;
+        position: absolute;
+        right: 0;
+        top: -50px;
         border-radius: 2rem;
         padding: 3rem;
         flex-direction: column;
-        box-shadow: 10px 10px;
+        box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.61);
         text-align: center;
+        .sign_up_btn{
+            margin-top: 1rem;
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            border: none;
+            color: $cube-white;
+            background-color: $median-green;
+            width: 250px;
+            align-self: center;
+        }
         h3{
             color: $cube-green;
             font-size: 2rem;
@@ -109,7 +127,8 @@
             input{
                 padding: 1rem;
                 width: 100%;
-                border-radius: 1rem;
+                border-radius: 5px;
+                border: 1px solid gray;
             }
         }
     }
@@ -127,7 +146,7 @@
     }
     .call_text, .call_number{
         color: $cube-white;
-        padding: 3.5rem 0;
+        padding: 4rem 0;
         h3{
             font-size: 3rem;
         }

@@ -7,7 +7,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import { faCircleRight as farCircleRight } from '@fortawesome/free-regular-svg-icons'
+import { faCircleRight} from '@fortawesome/free-regular-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons' 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
@@ -15,7 +15,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faPhone, faHouse, faEnvelope, faLink, farCircleRight, faTwitter, faYoutube, faFacebook, faInstagram)
+library.add(faPhone, faHouse, faEnvelope, faLink, faCircleRight, faTwitter, faYoutube, faFacebook, faInstagram)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

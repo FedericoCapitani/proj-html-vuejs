@@ -17,10 +17,10 @@
         <div class="footer_col">
           <h4>COURSES</h4>
           <ul>
-            <li class="courses"> <span>Pass Plus</span></li>
-            <li class="courses"> <span>Intensive Course</span></li>
-            <li class="courses"> <span>Automatic</span></li>
-            <li class="courses"> <span>Instructor Training</span></li>
+            <li class="courses"> <font-awesome-icon :icon="['far', 'circle-right']" /> <span>Pass Plus</span></li>
+            <li class="courses"> <font-awesome-icon :icon="['far', 'circle-right']" /> <span>Intensive Course</span></li>
+            <li class="courses"> <font-awesome-icon :icon="['far', 'circle-right']" /> <span>Automatic</span></li>
+            <li class="courses"> <font-awesome-icon :icon="['far', 'circle-right']" /> <span>Instructor Training</span></li>
           </ul>
         </div>
         <div class="footer_col d_flex">
