@@ -191,4 +191,22 @@ footer{
             }
         }
     }
+    .footer_social{
+        background-color: $material-black;
+        .social_container{
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: space-between;
+            padding: 4rem 0;
+            .social_text{
+                color: $median-dark-grey;
+                .green{
+                    color: $cube-green;
+                }
+            }
+            .social_icons{
+                color: $cube-white;
+            }
+        }
+    }
 }
