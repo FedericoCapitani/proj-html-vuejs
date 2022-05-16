@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+.d_flex{
+    display: flex;
+}
+
 .header_container{
     position: sticky;
     background-color: rgba($color: black, $alpha: 0.5);
     .ads_container{
         background-color: $cube-grey;
         .ads{
-            display: flex;
             max-width: 1200px;
             margin: 0 auto;
             justify-content: space-between;
@@ -24,7 +27,6 @@
         }
     }
     .navbar{
-        display: flex;
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem 0;
@@ -32,7 +34,6 @@
         column-gap: 4rem;
         .links{
             flex-grow: 2;
-            display: flex;
             flex-direction: row;
             justify-content: space-between;
             a{
@@ -73,7 +74,6 @@
 .sign-up{
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
     .sign-up_info{
         margin-top: 4rem;
         width: 50%;
@@ -93,12 +93,16 @@
     .sign-up_form{
         border-radius: 2rem;
         padding: 3rem;
-        display: flex;
         flex-direction: column;
         box-shadow: 10px 10px;
+        text-align: center;
+        h3{
+            color: $cube-green;
+            font-size: 2rem;
+            padding: 1rem 0;
+        }
         .form{
             margin-top: 1rem;
-            display: flex;
             flex-direction: column;
             align-items: center;
             row-gap: 1rem;
@@ -106,6 +110,48 @@
                 padding: 1rem;
                 width: 100%;
                 border-radius: 1rem;
+            }
+        }
+    }
+}
+
+.call{
+    background-image: url("@/assets/img/horizontal-cta-background.jpg");
+    background-size: cover;
+    background-position: center;
+    .call_container{
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .call_text, .call_number{
+        color: $cube-white;
+        padding: 3.5rem 0;
+        h3{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+    .call_number{
+        padding-right: 2rem;
+    }
+}
+
+footer{
+    background-image: url("@/assets/img/footer-background-color.jpg");
+    background-size: contain;
+    .footer_links{
+        max-width: 1200px;
+        margin: 0 auto;
+        background-size: contain;
+        padding: 3rem 0;
+        .footer_col{
+            width: calc(100% / 4);
+            .info{
+                color: $median-dark-grey;
             }
         }
     }

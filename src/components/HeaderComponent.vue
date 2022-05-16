@@ -2,7 +2,7 @@
     <header>
       <div class="header_container">
         <div class="ads_container">
-          <div class="ads">
+          <div class="ads d_flex">
           <div class="ads_item">
             we have a 95% Successfull Pass Rate!
           </div>
@@ -11,11 +11,11 @@
           </div>
         </div>
         </div>
-        <div class="navbar">
+        <div class="navbar d_flex">
           <div class="logo">
             <img src="@/assets/img/avada-drivers-logo-2x-300x58.png" alt="company logo">
           </div>
-          <div class="links">
+          <div class="links d_flex">
             <div v-for="link in nav_links" :key="link.id">
                 <a href="#"> {{link.text}} </a>
             </div>
