@@ -36,8 +36,11 @@
                     Copyright 2012 - 2020 | Avada Theme by <span class="green">ThemeFusion</span> | All Rights Reserved | Powered by <span class="green">WordPress</span> 
                 </p>
             </div>
-            <div class="social_icons">
-                <font-awesome-icon :icon="['fas', 'phone']" />
+            <div class="social_icons d_flex">
+                <font-awesome-icon :icon="['fab', 'facebook']" />
+                <font-awesome-icon :icon="['fab', 'twitter']" />
+                <font-awesome-icon :icon="['fab', 'youtube']" />
+                <font-awesome-icon :icon="['fab', 'instagram']" />
             </div>
         </div>
       </div> 
