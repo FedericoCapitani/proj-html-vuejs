@@ -273,6 +273,26 @@
             line-height: 230px;
             font-size: 4rem;
             color: $median-dark-grey;
+            position: relative;
+            #circle_green_0{
+                border: 7px solid $cube-green;
+                width: 1px;
+                border-radius: 50%;
+                position: absolute;
+                right: 45%;
+                top: -1%;
+                transform: translate(-50%, -50%);
+            }
+            #circle_grey_95{
+                width: 20px;
+                border-radius: 5px;
+                background-color: $median-light-grey;
+                border: 5px solid $median-light-grey;
+                right: calc(50% + 1px);
+                top: -8px;
+                position: absolute;
+                transform: rotate(353deg);
+            }
         }
         .grey{
             border: 8px solid $median-light-grey;
@@ -291,6 +311,7 @@
 .instructors{
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: -50px;
     h2{
         margin-top: 5rem;
         margin-bottom: 2rem;
@@ -329,6 +350,7 @@
             box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.61);
             color: $median-dark-grey;
             position: relative;
+            background-color: $cube-white;
             .icons{
                 display: flex;
                 column-gap: 1rem;
@@ -356,6 +378,63 @@
             }
             h3{
                 color: $cube-black;
+            }
+        }
+    }
+}
+
+.testimonials{
+    background-image: url("@/assets/img/testimonial-background.jpg");
+    background-size: cover;
+    .testim_container{
+        max-width: 1200px;
+        margin-top: -50px;
+        margin: 0 auto;
+        padding: 10rem 0 6rem;
+        text-align: center;
+        h3{
+            font-size: 3rem;
+            padding: 1rem 0;
+        }
+        p{
+            color: $median-dark-grey;
+            padding: 1rem 0;
+        }
+        .msg{
+            padding: 0 30%;
+            line-height: 1.5rem;
+            font-style: italic;
+        }
+        img{
+            max-width: 200px;
+            padding: 4rem 0 2rem 0;
+        }
+        .name{
+            font-weight: 700;
+        }
+    }
+    .selezione_testimonials{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        justify-content: center;
+        column-gap: 1rem;
+        .testimonial{
+            .cerchio{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid $cube-blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .active{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: $cube-blue;
+                }
             }
         }
     }

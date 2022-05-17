@@ -69,7 +69,8 @@
 
             <div class="plans_container d_flex">
               <div class="card_percentage d_flex">
-                  <div class="full_circle grey">
+                  <div class="full_circle green">
+                    <div id="circle_grey_95"></div>
                       <p>95%</p>
                   </div>
                   <p class="p_text">PASS RATE</p>
@@ -82,6 +83,7 @@
               </div>
               <div class="card_percentage d_flex">
                   <div class="full_circle grey">
+                    <div id="circle_green_0"></div>
                       <p>0%</p>
                   </div>
                   <p class="p_text">ACCIDENT RATE</p>
