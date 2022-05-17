@@ -45,6 +45,7 @@
       </div>
 
       <div class="course_plans">
+        <div class="bg_plans1">
           <div class="plans_container">
               <div class="col-4">
                   <div class="plan_card">
@@ -73,7 +74,9 @@
                   </div>
               </div>
           </div>
-          <div class="plans_container d_flex">
+        </div>
+
+            <div class="plans_container d_flex">
               <div class="card_percentage d_flex">
                   <div class="full_circle grey">
                       <p>95%</p>
@@ -93,6 +96,7 @@
                   <p class="p_text">ACCIDENT RATE</p>
               </div>
           </div>
+          
       </div>
 
       <div class="instructors">
@@ -103,8 +107,65 @@
               </div>
               <button class="inst_btn">MORE ABOUT US</button>
           </div>
+
+          <div class="instructors_cards d_flex">
+            <div class="card">
+              <img src="@/assets/img/instructor-mikehart.jpg" alt="">
+              <div class="icons">
+                <font-awesome-icon :icon="['fab', 'facebook']" />
+                <font-awesome-icon :icon="['fab', 'twitter']" />
+                <font-awesome-icon :icon="['fab', 'instagram']" />
+              </div>
+              <h3>Mike Hart</h3>
+              <p class="hover_text">
+                instructor-mikehart
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+            <div class="card">
+              <img src="@/assets/img/instructor-johnsmith.jpg" alt="">
+              <div class="icons">
+                <font-awesome-icon :icon="['fab', 'facebook']" />
+                <font-awesome-icon :icon="['fab', 'twitter']" />
+                <font-awesome-icon :icon="['fab', 'instagram']" />
+              </div>
+              <h3>John Smith</h3>
+              <p class="hover_text">
+                instructor-johnsmith
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+            <div class="card">
+              <img src="@/assets/img/instructor-angelahart.jpg" alt="">
+              <div class="icons">
+                <font-awesome-icon :icon="['fab', 'facebook']" />
+                <font-awesome-icon :icon="['fab', 'twitter']" />
+                <font-awesome-icon :icon="['fab', 'instagram']" />
+              </div>
+              <h3>Angela Hart</h3>
+              <p class="hover_text">
+                instructor-angelahart
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+          </div>
       </div>
 
+
+    
+
+    <div class="newsletter d_flex">
+      <h2>Sign up to our newsletter</h2>
+      <input type="text">
+      <button class="news_btn">SUBSCRIBE</button>
+      <p>(we do not share your data with anybody, and only use it for its inteded purpose)</p>
+    </div>
     </main>
 
 </template>
