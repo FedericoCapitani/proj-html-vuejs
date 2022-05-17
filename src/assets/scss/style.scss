@@ -210,6 +210,15 @@
             top: -20px;
             border-radius: 1rem;
             padding: 1rem 2rem;
+            .new{
+                position: absolute;
+                background-color: $cube-green;
+                color: $cube-white;
+                padding: 0.5rem 1rem;
+                top: 0px;
+                left: 0px;
+                border-top-left-radius: 1rem;
+            }
             h3{
                 font-size: 2rem;
                 margin: 2rem 0;

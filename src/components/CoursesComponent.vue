@@ -4,6 +4,7 @@
           <div class="plans_container">
               <div class="col-4">
                   <div class="plan_card">
+                      <div class="new">NEW</div>
                       <h3>Courses</h3>
                       <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt odio ducimus, vitae, ullam, quia esse soluta cupiditate odit illum veritatis hic dicta nostrum voluptates mollitia.
