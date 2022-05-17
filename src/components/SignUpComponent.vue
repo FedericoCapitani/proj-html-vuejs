@@ -9,12 +9,12 @@
           <h3>First Lesson Free!</h3>
           <p>When you make a block booking with us your first lesson is included free</p>
           <form action="" class="form d_flex" id="form1">
-            <input type="text" placeholder="Your Name*">
-            <input type="text" placeholder="Email*">
-            <input type="text" placeholder="Telephone">
-            <input type="text" placeholder="Location">
+            <input type="text" placeholder="Your Name*" v-model="name">
+            <input type="text" placeholder="Email*" v-model="email">
+            <input type="text" placeholder="Telephone" v-model="phone_number">
+            <input type="text" placeholder="Location" v-model="location">
           </form>
-          <button class="sign_up_btn" form="form1">REQUEST A CALLBACK</button>
+          <button class="sign_up_btn" v-on:click="saveData">REQUEST A CALLBACK</button>
         </div>
       </div>
 </template>
@@ -23,7 +23,29 @@
 export default {
     name: 'SignUp',
     data(){
-        return{}
+        return{
+            name: '',
+            email: '',
+            phone_number: '',
+            location: '',
+            new_id: 0,
+            dati: [
+                {
+                    id: 0,
+                    name: 'test',
+                    email: 'test',
+                    phone_number: 'test',
+                    location: 'test'
+                }
+            ]
+        }
+    },
+    methods: {
+        saveData(){
+            this.new_id++
+            this.dati.push({id: this.new_id, name: this.name, email: this.email, phone_number: this.phone_number, location: this.location})
+            console.log(this.dati)
+        }
     }
 }
 </script>
