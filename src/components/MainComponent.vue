@@ -3,6 +3,19 @@
     <main>
 
       <div class="jumbotron">
+        <div class="jumbo_icons">
+          <div class="icon d_flex column_center">
+            <font-awesome-icon :icon="['fas', 'folder']" id="folder" />
+            <p>Demos</p>
+          </div>
+          <div class="icon">
+            <div class="price">
+              <p id="dollar">$</p>
+              <p>39</p>
+            </div>
+            <p>On Sale</p>
+          </div>
+        </div>
         <div class="jumbo_text">
           <h2>
             Drive with Avada
@@ -157,8 +170,29 @@
           </div>
       </div>
 
-      <TestimonialComponent/>
+      <TestimonialOutput/>
 
+      <div class="latest_news">
+        <div class="news_container">
+          <h2>Latest News</h2>
+          <div class="container">
+            <div class="col_half">
+              <img src="@/assets/img/blog-choosecar-700x441.jpg" alt="news_img_1">
+              <h3>What Car to Start With?</h3>
+              <p class="small">February 7th 2019 | <span class="green">0 Comments</span></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="col_half">
+              <img src="@/assets/img/blogpost-10and2-700x441.jpg" alt="news_img_2">
+              <h3>What Car to Start With?</h3>
+              <p class="small">February 7th 2019 | <span class="green">0 Comments</span></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <button class="news_btn">MORE FROM THE BLOG</button>
+        </div>
+        <div class="angle_bg"></div>
+      </div>
 
     <div class="newsletter d_flex">
       <h2>Sign up to our newsletter</h2>
@@ -171,11 +205,13 @@
 </template>
 
 <script>
-import TestimonialComponent from "@/components/TestimonialsComponent.vue"
+import TestimonialOutput from "@/components/TestimonialsOutputComponent.vue"
 
 export default {
+  components: {
+    TestimonialOutput
+  },
     name: 'SiteMain',
-    components: TestimonialComponent,
     data() {
         return {
 

@@ -52,12 +52,43 @@
     }
 }
 
+.column_center{
+    align-items: center;
+    flex-direction: column;
+}
 .jumbotron{
     margin-top: calc(-144px);
     height: 700px;
     background-image: url('@/assets/img/homepage-hero-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    .jumbo_icons{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 150px;
+        .icon{
+            background-color: $cube-white;
+            margin: 3px 1rem;
+            border-radius: 0.5rem;
+            padding: 10px;
+            font-weight: 600;
+            box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.61);
+            .price{
+                display: flex;
+                color: $cube-green;
+                font-size: 2.2rem;
+                #dollar{
+                    font-size: 1.2rem;
+                }
+            }
+            #folder{
+                color: $cube-blue;
+                font-size: 2.5rem;
+            }
+        }
+    }
     .jumbo_text{
         max-width: 1200px;
         margin: 0 auto;
@@ -325,6 +356,47 @@
                 color: $cube-black;
             }
         }
+    }
+}
+
+.latest_news{
+    background-image: url("@/assets/img/latestnews-background.jpg");
+    padding-bottom: 4rem;
+    .news_container{
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $cube-white;
+        padding: 3rem;
+        border-top: 5px solid $cube-light-blue;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.61);
+        .container{
+            display: flex;
+            column-gap: 2rem;
+            .col_half{
+                width: calc(100% / 2 - 1rem);
+                img{
+                    width: 100%
+                };
+            }
+        }
+        .news_btn{
+            margin-top: 3rem;
+            background-color: $cube-green;
+            border: none;
+            padding: 1rem 2rem;
+            color: $cube-white;
+            border-radius: 2rem;
+            width: 400px;
+        }
+    }
+    .angle_bg{
+        background-image: url("@/assets/img/latestnews-bottom-1200x105.png");
+        margin: 0 auto;
+        width: 1200px;
+        height: 105px;
     }
 }
 
