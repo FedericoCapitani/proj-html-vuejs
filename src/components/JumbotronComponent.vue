@@ -26,7 +26,7 @@
 export default {
     name: "JumboComponent",
     data(){
-
+      return{}
     }
 }
 </script>

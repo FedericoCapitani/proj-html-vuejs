@@ -101,46 +101,52 @@
 
           <div class="instructors_cards d_flex">
             <div class="card">
-              <img src="@/assets/img/instructor-mikehart.jpg" alt="">
+              <div class="inst_pic">
+                <img src="@/assets/img/instructor-mikehart.jpg" alt="">
+                <p class="hover_text">
+                  instructor-mikehart
+                </p>
+              </div>
               <div class="icons">
                 <font-awesome-icon :icon="['fab', 'facebook']" />
                 <font-awesome-icon :icon="['fab', 'twitter']" />
                 <font-awesome-icon :icon="['fab', 'instagram']" />
               </div>
               <h3>Mike Hart</h3>
-              <p class="hover_text">
-                instructor-mikehart
-              </p>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
             </div>
             <div class="card">
-              <img src="@/assets/img/instructor-johnsmith.jpg" alt="">
+              <div class="inst_pic">
+                <img src="@/assets/img/instructor-johnsmith.jpg" alt="">
+                <p class="hover_text">
+                  instructor-johnsmith
+                </p>
+              </div>
               <div class="icons">
                 <font-awesome-icon :icon="['fab', 'facebook']" />
                 <font-awesome-icon :icon="['fab', 'twitter']" />
                 <font-awesome-icon :icon="['fab', 'instagram']" />
               </div>
               <h3>John Smith</h3>
-              <p class="hover_text">
-                instructor-johnsmith
-              </p>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
             </div>
             <div class="card">
-              <img src="@/assets/img/instructor-angelahart.jpg" alt="">
+              <div class="inst_pic">
+                <img src="@/assets/img/instructor-angelahart.jpg" alt="">
+                <p class="hover_text">
+                  instructor-angelahart
+                </p>
+              </div>
               <div class="icons">
                 <font-awesome-icon :icon="['fab', 'facebook']" />
                 <font-awesome-icon :icon="['fab', 'twitter']" />
                 <font-awesome-icon :icon="['fab', 'instagram']" />
               </div>
               <h3>Angela Hart</h3>
-              <p class="hover_text">
-                instructor-angelahart
-              </p>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
