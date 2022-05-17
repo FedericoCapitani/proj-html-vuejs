@@ -5,7 +5,7 @@
             <div class="selected">
                 <h3>Testimonials</h3>
                 <p>Here's what our happy drivers had to say about our services:</p>
-                <img :src="item.img" alt="immagine testimonial">
+                <img :src="'@/assets/img/testimonial-' + item.img" alt="immagine testimonial">
                 <p class="msg"> {{item.message}} </p>
                 <p class="name"> {{item.name}} </p>
             </div>
@@ -37,31 +37,31 @@ export default {
             testimonials: [
                 {
                     id: 1,
-                    img: "@/assets/img/testimonial-sophia.png",
+                    img: "sophia.png",
                     name: "Sophia Jones",
                     message: "Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended"
                 },
                 {
                     id: 2,
-                    img: "@/assets/img/testimonial-grant.png",
+                    img: "grant.png",
                     name: "Grant Jones",
                     message: "Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended"
                 },
                 {
                     id: 3,
-                    img: "@/assets/img/testimonial-kate.png",
+                    img: "kate.png",
                     name: "Kate Jones",
                     message: "Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended"
                 },
                 {
                     id: 4,
-                    img: "@/assets/img/testimonial-harold.png",
+                    img: "harold.png",
                     name: "Harold Jones",
                     message: "Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended"
                 },
                 {
                     id: 5,
-                    img: "@/assets/img/testimonial-kelly.png",
+                    img: "kelly.png",
                     name: "Kelly Jones",
                     message: "Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended"
                 }
