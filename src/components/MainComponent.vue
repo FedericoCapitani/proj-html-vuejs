@@ -157,8 +157,8 @@
           </div>
       </div>
 
+      <TestimonialComponent/>
 
-    
 
     <div class="newsletter d_flex">
       <h2>Sign up to our newsletter</h2>
@@ -171,8 +171,11 @@
 </template>
 
 <script>
+import TestimonialComponent from "@/components/TestimonialsComponent.vue"
+
 export default {
     name: 'SiteMain',
+    components: TestimonialComponent,
     data() {
         return {
 
