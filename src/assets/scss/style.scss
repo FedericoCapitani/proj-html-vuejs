@@ -45,9 +45,16 @@
         .btn_nav{
             padding: 1rem 2rem;
             border-radius: 2rem;
+            font-weight: 700;
             border: none;
             color: $cube-white;
             background-color: $median-green;
+        }
+        .btn_nav:hover{
+            background-color: $cube-white;
+            color: $cube-green;
+            padding: calc(1rem - 5px) calc(2rem - 5px);
+            border: 5px solid $cube-green;
         }
     }
 }
@@ -144,6 +151,13 @@
             background-color: $median-green;
             width: 250px;
             align-self: center;
+            font-weight: 700;
+        }
+        .sign_up_btn:hover{
+            background-color: $cube-white;
+            color: $cube-green;
+            padding: calc(1rem - 5px) calc(2rem - 5px);
+            border: 5px solid $cube-green;
         }
         h3{
             color: $cube-green;
@@ -235,6 +249,13 @@
                 color: $cube-white;
                 background-color: $median-green;
                 margin-bottom: 3rem;
+                font-weight: 700;
+            }
+            .courses_info:hover{
+                background-color: $cube-white;
+                color: $cube-green;
+                padding: calc(1rem - 5px) calc(2rem - 5px);
+                border: 5px solid $cube-green;
             }
         }
     }
@@ -260,6 +281,7 @@
                 background-color: transparent;
                 border-radius: 2rem;
                 color: $cube-light-blue;
+                font-weight: 700;
             }
         }
     }
@@ -341,6 +363,13 @@
             border-radius: 2rem;
             color: $cube-white;
             border: none;
+            font-weight: 700;
+        }
+        .inst_btn:hover{
+            background-color: $cube-white;
+            color: $cube-green;
+            padding: calc(0.5rem - 5px) calc(2rem - 5px);
+            border: 5px solid $cube-green;
         }
         margin-bottom: 4rem;
     }
@@ -480,6 +509,13 @@
             color: $cube-white;
             border-radius: 2rem;
             width: 400px;
+            font-weight: 700;
+        }
+        .news_btn:hover{
+            background-color: $cube-white;
+            color: $cube-green;
+            padding: calc(1rem - 5px) calc(2rem - 5px);
+            border: 5px solid $cube-green;
         }
     }
     .angle_bg{
@@ -513,6 +549,13 @@
         border: none;
         color: $cube-white;
         margin: 2rem 0;
+        font-weight: 700;
+    }
+    .news_btn:hover{
+        background-color: $cube-white;
+        color: $cube-green;
+        padding: calc(1rem - 5px) calc(2rem - 5px);
+        border: 5px solid $cube-green;
     }
     p{
         color: $median-dark-grey;
@@ -564,6 +607,13 @@ footer{
                 border: none;
                 color: $cube-white;
                 background-color: $median-green;
+                font-weight: 700;
+            }
+            .btn_footer:hover{
+                background-color: $cube-white;
+                color: $cube-green;
+                padding: calc(1rem - 5px) calc(2rem - 5px);
+                border: 5px solid $cube-green;
             }
             .ads_footer{
                 padding: 1rem 0 1rem 1rem;
