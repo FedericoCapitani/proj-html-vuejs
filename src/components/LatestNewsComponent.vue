@@ -11,7 +11,7 @@
             </div>
             <div class="col_half">
               <img src="@/assets/img/blogpost-10and2-700x441.jpg" alt="news_img_2">
-              <h3>What Car to Start With?</h3>
+              <h3>Avada Driving School Expanding</h3>
               <p class="small">February 7th 2019 | <span class="green">0 Comments</span></p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
